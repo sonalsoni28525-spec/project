@@ -4,7 +4,12 @@ body{
 .header{
   margin:0;
   height:7%;
-  background-color:red;
+background-color:red;
+  display:flex
+}
+.logo{
+
+
 }
 @media(max-width:576px){
   .header{
