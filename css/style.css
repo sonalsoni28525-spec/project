@@ -1,15 +1,16 @@
 body{
-  margin:0;
+  margin:0px;
 }
 .header{
-  margin:0;
-  height:7px;
+  margin:0px;
+  height:7%;
 background-color:red;
-  display:flex
+  display:flex;
 }
 @media(max-width:576px){
+  flex-direction: row;
   .header{
-    height:5px;
+    height:5%;
 background-color:blue;
   }
 }
