@@ -3,9 +3,9 @@ body{
 }
 .header{
   margin:0px;
-  height:7%;
+  height: 7%;
 background-color:red;
-  display:flex;
+  display: flex;
 }
 @media(max-width: 576px){
   .header {
