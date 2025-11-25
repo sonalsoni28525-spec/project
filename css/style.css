@@ -3,17 +3,13 @@ body{
 }
 .header{
   margin:0;
-  height:7%;
+  height:7px;
 background-color:red;
   display:flex
 }
-.logo{
-
-
-}
 @media(max-width:576px){
   .header{
-    height:5%;
+    height:5px;
 background-color:blue;
   }
-
+}
