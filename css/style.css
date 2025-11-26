@@ -23,11 +23,7 @@ width:25%;
   height: auto;
 }
 
-@media(max-width: 576px){
-  .header {
-    flex-direction: row;
-    height: 5%;
-    background-color: blue;
+@media(max-widhth:576px){
+  .header{
+    height:6%;
   }
-}
-
