@@ -14,8 +14,9 @@ width:25%;
 .logo a {
   width:100%;
   height:100%;
-  justify-content:centre; 
-  align-items:centre;
+  /* justify-content:centre;  */
+  /* align-items:centre; */
+
 }
 .logo a img{
   width: auto;
