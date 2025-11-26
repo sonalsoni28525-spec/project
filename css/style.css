@@ -4,27 +4,24 @@ body{
 .header{
   margin:0px;
   height: 7%;
-background-color:red;
+background-color:green;
   display: flex;
 }
 .logo{
-width:100%;
-  background-color:blue;
+width:25%;
+ background-color:blue;
 }
 .logo a {
   width:100%;
   height:100%;
-  text-align:centre;
-  /* justify-content:centre; */
+  justify-content:centre; 
+  align-items:centre;
 }
 .logo a img{
   width: auto;
   height: auto;
 }
-.menu{
-  width: 75%;
-  background-color: black;
-}
+
 @media(max-width: 576px){
   .header {
     flex-direction: row;
