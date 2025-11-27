@@ -26,6 +26,7 @@ width:25%;
 
 .menu{
   width:75%;
+  align-items:center;
   background-color: yellow;
   display: flex;
 }
@@ -47,6 +48,7 @@ width:25%;
 
 .navbar ul li a{
   list-style-type:none;
+  text-decoration:none;
 }
   
 .mobilebar {
