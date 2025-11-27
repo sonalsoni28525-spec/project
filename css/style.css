@@ -26,6 +26,7 @@ width:25%;
 
 .menu{
   width:75%;
+  heiht:100%;
   background-color:green;
   text-color:pink;
   display: flex;
@@ -33,7 +34,7 @@ width:25%;
 
  .navbar {
    width:100%;
-   height:10%;
+   height:100%;
    display:flex;
    text-decoration:none;
    
@@ -56,12 +57,12 @@ width:25%;
 }
   
 .mobilebar {
-    
-  
+    width:0px;
 } 
 
 @media(max-widhth:576px){
   .header{
     height:6%;
   }
+  
 }
