@@ -42,6 +42,7 @@ width:25%;
   display: flex;
   text-decoration:none;
   list-style:none;
+  gap:40px;
 }
 
 .navbar ul li a{
