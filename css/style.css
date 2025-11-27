@@ -33,19 +33,27 @@ width: 75%;
   display: flex;
 }
 
-/* .navbar {
+ .navbar {
+   display:flex;
+   text-decoration:none;
 }
 
-.navbar ul {
+.navbar ul  {
   display: flex;
+  text-decoration:none;
+  list-style:none;
 }
 
+.navbar ul li{
+  text-decoration:none;
+}
+  
 .navbar a{
   text-decoration:none;
 }
 
 .mobilebar {
-} */
+} 
 
 @media(max-widhth:576px){
   .header{
