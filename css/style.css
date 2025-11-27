@@ -27,7 +27,7 @@ width:25%;
 .menu{
   width:75%;
   background-color:green;
-  align-items:center;
+  text-color:pink;
   display: flex;
 }
 
@@ -36,6 +36,7 @@ width:25%;
    height:10%;
    display:flex;
    text-decoration:none;
+   
 }
 
 .navbar ul  {
@@ -50,10 +51,13 @@ width:25%;
 
 .navbar ul li a{
   text-decoration:none;
+  color:white;
   font-size:20px; 
 }
   
 .mobilebar {
+    
+  
 } 
 
 @media(max-widhth:576px){
