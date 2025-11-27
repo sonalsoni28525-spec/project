@@ -33,7 +33,7 @@ width: 75%;
   display: flex;
 }
 
-.navbar {
+/* .navbar {
 }
 
 .navbar ul {
@@ -45,7 +45,7 @@ width: 75%;
 }
 
 .mobilebar {
-}
+} */
 
 @media(max-widhth:576px){
   .header{
