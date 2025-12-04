@@ -7,7 +7,7 @@
   width:100%;
   backgroud-color:aqua;
   display:flex;
-  align-items:center;
+  
 }
 .logo{
   width:25%;
@@ -18,38 +18,42 @@
   display:flex;
   justify-content:center;
 }
-.logo img{
+.logo a img{
   height:auto;
   width:auto;
 }
 .menu{
   width:75%;
-  background-color:aqua;
+  background-color:red;
   display:flex;
 }
-.menu.menubar{
-  height:100%;
-  width:80%;
+
+.navBar {
+    height: 100%;
+    width: 100%;
+    display: flex;
 }
-.menu.menubar ul {
-  text-decoration:none;
-  width:100%;
-  height:100%;
-  display:flex;
-  align-items:center;
-  justify-content:space-around;
+.navBar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+   list-style: none;
+   font-size: ;  
 }
-.menu  ul li{
-  list-style-type:none;
-  padding-bottom:2.5vw;
-  align-items:center;
+.navBar ul li{
+    padding: 7px;
 }
-.menu ul li a{
-  text-decoration:none;
-  color:black;
-  font-size:1.5vw;
-  position: absolute;
+.navBar ul li a{
+   text-decoration: none;
+  
+ 
 }
+  
+
   /* @media (max-width:576px){ 
   .menu{
     background-color:blue;
