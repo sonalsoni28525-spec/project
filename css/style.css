@@ -3,7 +3,7 @@
   padding:0;
 }
 .header{
-  height:10%;
+  height:10vh;
   width:100%;
   backgroud-color:aqua;
   display:flex;
@@ -26,11 +26,11 @@
   background-color:aqua;
   display:flex;
 }
-.menu .menubar{
+.menu.menubar{
   height:100%;
   width:80%;
 }
-.menu .menubar ul {
+.menu.menubar ul {
   text-decoration:none;
   width:100%;
   height:100%;
