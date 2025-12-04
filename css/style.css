@@ -1,57 +1,65 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
-.header{
-    width: 100vw;
-    height: 2rem;
-    display: flex;
-    background-color: darkblue;
 
-
+.header {
+  width:100%;
+  height:10vh;
+  background-color: blue;
+  display:flex;
 }
 .logo{
-    width: 25%;
-    height:2rem;
-   
+  width:25%;
+  background-color:green;
 }
 .logo a{
-    width: 100%;
-    height:2rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
 }
+
+.logo a img{
+  width:auto;
+  height:auto;
+}
+
 .menu{
-    width: 75%;
-    height: 100%;
-    display: flex;
-}
-.navBar{
-    flex:1;
-    display: flex;    
-    
-}
-.menu .navBar ul{
+ width:75%;
+ background-color:red;
+ display:flex;
 
-      display: flex;
-      flex: 1;
-    justify-content: space-around;
-    align-items: center;
-   text-decoration: none;
-   list-style: none;
-   gap: 20px;
 }
-.navBar ul li{
-    width: 100%;
-    height: 1rem;
-    display: flex;    
+.nav{
+  width:100%;
+  hight:100%;
 }
 
-.navBar ul li a{
-    text-decoration: none;
-    font-size:1rem;
-    flex: 1;
-    color:white;   
+.nav ul{ 
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+
+.nav ul li{
+ list-style-type:none;
+ padding-bottom:2%;
+}
+
+.nav ul li a{
+  text-decoration:none;
+  color:yellow;
+  font-size:1.5vw;
+  position:absolute;
+  }
+
+
+/*@media (max-width:576px){
+ .header{
+  height:7%
+  background-color:red;
+   }*/
 }
