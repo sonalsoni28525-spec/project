@@ -1,4 +1,4 @@
-*{
+u*{
   margin:0;
   padding:0;
 }
@@ -59,7 +59,7 @@
   height:100%;
   width:0%;
 }
-.submenu{
+.menu .nav .ul .li.submenu{
   display:none;
   postion: absolute;
   background-color:green;
@@ -68,17 +68,17 @@
   padding-left:5px;
   z-index:10;
 }
-.submenu ul{
+.menu .nav .ul .li.submenu ul{
   list-style: none;
   padding:5px  10px;
   text-align:left;
 }
-.submenu ul li{
+.menu .nav .ul .li.submenu ul li{
   list-style:none;
   padding: 5px 10px;
   text-align:left;
 }
-.submenu ul li a{
+.menu .nav .ul .li.submenu ul li a{
   color:green;
 font-size:1vw;
   text-decoration:none;
