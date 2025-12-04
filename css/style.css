@@ -27,10 +27,6 @@
     width: 75%;
     height: 100%;
     display: flex;
-    
-    
-
-
 }
 .navBar{
     flex:1;
@@ -40,7 +36,7 @@
 .menu .navBar ul{
 
       display: flex;
-      flex: 1;;
+      flex: 1;
     justify-content: space-around;
     align-items: center;
    text-decoration: none;
