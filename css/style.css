@@ -84,11 +84,10 @@ font-size:1vw;
   text-decoration:none;
   postion:relative;
 }
-menu ul li a:hover .submenu{
-  display:block;
-
+.menu li:hover .submenu {
+  display: block;
 }
-} 
+
 
   
   
