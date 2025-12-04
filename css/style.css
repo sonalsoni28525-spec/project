@@ -1,4 +1,4 @@
-u*{
+*{
   margin:0;
   padding:0;
 }
@@ -84,8 +84,9 @@ font-size:1vw;
   text-decoration:none;
   postion:relative;
 }
-.menu li:hover .submenu {
-  display: block;
+.menu ul li:hover.submenu{
+   display:block;
+}
 }
 
 
