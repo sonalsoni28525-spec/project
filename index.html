@@ -1,40 +1,27 @@
- <html>
-  <head>
-    <title> training project</title>
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>trianing project</title>
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport"  content="width=device-width,  initial-scale=1.0">
-  </head>
-  <body> 
-    <div class="header"> 
-      <div class="logo">
-         <a  href="#"> 
-          <img src="css/doremon.jpg" alt="">
-        </a>
-      
-    </div>
-      <div class="menu">
-         <div class="navbar"> 
-           
-        <ul>
-          <li>
-            <a href="https://sonalsoni28525-spec.github.io/project/#">home</a>
-            </li>
-          <li>
-            <a href="about.html">about</a>
-          </li>
-          <li>
-            <a href="subject.html">subject</a>
-  
-          </li>
-          
-        </ul>
-           </div>
-           <div class="mobileveiw">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-           </div>
-        </div>
-    
-  
-    
-  </body>
+<body>
+      <div id="header">
+                </div>
+            <script>
+                fetch("header.html")
+                .then(response=> response.text())
+                .then(data=>{
+                    document.getElementById("header").innerHTML= data;});
+            </script>
+      
+
+
+
+  /*<p><b>Hello</b></p>*/
+    <p><i>Hello</i></p>
+    <p><u>Hello</u></p>*/
+ 
+</body>
 </html>
