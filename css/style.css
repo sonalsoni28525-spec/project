@@ -4,10 +4,12 @@
 }
 
 .header {
-  width:100%;
+  width:50%;
   height:10%;
-  background-color: blue;
+  background-color: black;
   display:flex;
+  align-items:center;
+  justify-content:center;
 }
 .logo{
   width:20%;
@@ -71,8 +73,11 @@
 .menu .menubar ul li .submenu {
   display: none;
   position: absolute;
-  top:10%;
+  top:100%;
+  left:50%;
+  transform: translatex(-50%);
   background: magenta;
+  max-width:100;
   border: 1px solid black;
   width: 120px;
   height: auto;
