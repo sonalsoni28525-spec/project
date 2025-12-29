@@ -10,6 +10,14 @@
   display:flex;
 
 }
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+
+
 .logo{
   width:25%;
   height:100%;
