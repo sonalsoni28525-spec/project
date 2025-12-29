@@ -6,16 +6,14 @@
 .header {
   width:100%;
   height:10%;
-  background-color: black;
+  background-color: white;
   display:flex;
 
 }
 .logo{
   width:25%;
   height:100%;
-  display:flex;
-  background-color:black;
-  justify-content:center;
+  background-color:#98FF98;
 }
 .logo a{
   width:100%;
@@ -29,12 +27,12 @@
   height:auto;
 }
 
-.menu {
-  width: 75%;
+.menu{
+  width:75%;
   height: 100%;
-  display:flex;
-  background-color: green;
+   background-color: green;
 }
+
 
 .menu .menubar {
   height: 100%;
@@ -50,12 +48,12 @@
 }
 
 .menu .menubar ul li {
-  list-style: none;
-  padding-bottom: 3%;
   postion:relative;
-  height:100%;
-  display:flex;
-  align-item:center;
+  list-style:none;
+  height: 100%;
+  display: flex;
+  align-items: center; 
+  
 }
 
 .menu .menubar ul li a {
@@ -79,10 +77,10 @@
   top:100%;
   left:50%;
   transform: translatex(-50%);
-  background: magenta;
+  background: blue;
   max-width:100;
   border: 1px solid black;
-  width: 120px;
+  width: 200px;
   height: auto;
   flex-direction:column;
   padding:5px 0;
@@ -90,27 +88,108 @@
 }
 
 .menu .menubar ul li .submenu li{
+  width:90%;
+  display:flex;
+  justify-content: center;
   padding:8px;
   list-style:none;
-  padding-bottom: 20%;
+  align-items:center;
 }
 
 .menu .menubar ul li .submenu li a{
-    font-size:16px;
+    font-size:1vw;
     color: white;
+  text-align :center;
+  display:inline-block;
+  max-width: 100%;
+  white-scape:nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
 }
 
 .menu .menubar ul li:hover .submenu {
   display: block;
 }
-.menu .menubar ul li.lastsub.submenu{
-  right:auto;
-}
-.menu .menubar ul li.lastsub{
-  padding-right:50px;
+
+@media(max-width: 576px){
+  .header{
+    height:5%;
+    brockground:white;
+  }
+  header .logo {
+    width: 80%;
+    background-color: white;
+  }
+
+  .header .logo a {
+    width: 50%;
+    background-color: white;
+    justify-content: none;
+    padding-left: 20%;
+  }
+
+  .header .menu {
+    width: 20%;
+    background-color: white;
+  }
+
+  .header .menu .menubar{
+    width: 0%;
+    height: 0%;
+  }
+
+  .header .menu .mobilebar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .header .menu .mobilebar .hamburger {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background:green;
+  }
+
+  .header .menu .mobilebar .hamburger span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 7px 0 white, 0 -7px 0 white;
+  }
+
+.header .menu .menubar ul{
+display:flex;
+  background:grey;
+  position:absolute;
+  top:5%;
+  left:0;
+  right:0;
+  z-index:9;
+  flex-direction:column;
+  
 }
 
-.menu .menubar ul .underline_current > a {
-    text-decoration: underline;
-    text-decoration-color: red;
+ .header .menu .menubar ul{
+   height:auto;
+   width:100%;
+   display:none;
+ }
+
+.header .menu .menubar ul li{
+  padding:5% 0;
+}
+   .header .menu .menubar ul li{
+     position:absolute;
+     top:100%;
+     left:0%;
+     transform: 0 !important;
+     display:none;
+   }
+ } 
+  
 }
