@@ -169,7 +169,7 @@
     border-radius: 2px;
     box-shadow: 0 7px 0 white, 0 -7px 0 white;
   }
-.header .menu .mobile-open .menubar ul{
+/* .header .menu .mobile-open .menubar ul{
   display:flex;
   background:grey;
   postion: absolute;
@@ -178,7 +178,7 @@
   right: 0;
   z-index:9;
   flex-direction: column;
-}
+} */
 
     
 /* .header .menu .menubar ul{
@@ -213,8 +213,8 @@ display:flex;
      transform: none !important;
      display:none;
    }
-  .header .menu .menubar ul li:open-submenu .submenu{
-    display:block;
+  /* .header .menu .menubar ul li:open-submenu .submenu{
+    display:block; */
  } 
   
 }
