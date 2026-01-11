@@ -1,77 +1,72 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-  width:100%;
-  height:10%;
+  width: 100%;
+  height: 10%;
   background-color: white;
-  display:flex;
-
+  display: flex;
 }
+
 .hamburger {
   font-size: 30px;
   cursor: pointer;
   padding: 100px;
 }
 
-
-
-.logo{
-  width:25%;
-  height:100%;
-  background-color:#98FF98;
-}
-.logo a{
-  width:100%;
-  height:100%;
-  display:flex;
-  justify-content:center;
-}
-
-.logo a img{
-  width:auto;
-  height:auto;
-}
-
-.menu{
-  width:75%;
+.logo {
+  width: 25%;
   height: 100%;
-   background-color: green;
+  background-color: #98FF98;
+}
+.logo a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo a img {
+  width: auto;
+  height: auto;
 }
 
+.menu {
+  width: 75%;
+  height: 100%;
+  background-color: green;
+}
 
 .menu .menubar {
   height: 100%;
-  width: 100%; 
+  width: 100%;
 }
 
 .menu .menubar ul {
   width: 90%;
   height: 100%;
-  display:flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .menu .menubar ul li {
-  postion: relative;
-  list-style:none;
+  position: relative;
+  list-style: none;
   height: 100%;
   display: flex;
-  align-items: center; 
-  
+  align-items: center;
 }
 
 .menu .menubar ul li a {
   text-decoration: none;
   color: black;
   font-size: 1.5vw;
-  height:100%;
-  align-items:center;
-  justify-content:center;
-  position: static !important;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu .mobilebar {
@@ -82,36 +77,35 @@
 .menu .menubar ul li .submenu {
   display: none;
   position: absolute;
-  top:100%;
-  left:50%;
-  transform: translatex(-50%);
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
   background: blue;
-  max-width:100;
+  max-width: 100px;
   border: 1px solid black;
   width: 200px;
-  height: auto;
-  flex-direction:column;
-  padding:5px 0;
+  flex-direction: column;
+  padding: 5px 0;
   z-index: 10;
 }
 
-.menu .menubar ul li .submenu li{
-  width:90%;
-  display:flex;
+.menu .menubar ul li .submenu li {
+  width: 90%;
+  display: flex;
   justify-content: center;
-  padding:8px;
-  list-style:none;
-  align-items:center;
+  padding: 8px;
+  list-style: none;
+  align-items: center;
 }
 
-.menu .menubar ul li .submenu li a{
-    font-size:1vw;
-    color: white;
-  text-align :center;
-  display:inline-block;
+.menu .menubar ul li .submenu li a {
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  display: inline-block;
   max-width: 100px;
-  white-scape:  nowrap;
-  overflow:hidden;
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -119,12 +113,14 @@
   display: block;
 }
 
-@media(max-width: 576px){
-  .header{
-    height:5%;
-    brockground:white;
+/* Mobile Styles */
+@media (max-width: 576px) {
+  .header {
+    height: 5%;
+    background: white;
   }
- .header .logo {
+
+  .header .logo {
     width: 80%;
     background-color: white;
   }
@@ -141,7 +137,7 @@
     background-color: white;
   }
 
-  .header .menu .menubar{
+  .header .menu .menubar {
     width: 0%;
     height: 0%;
   }
@@ -158,7 +154,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background:green;
+    background: green;
   }
 
   .header .menu .mobilebar .hamburger span {
@@ -169,52 +165,48 @@
     border-radius: 2px;
     box-shadow: 0 7px 0 white, 0 -7px 0 white;
   }
-/* .header .menu .mobile-open .menubar ul{
-  display:flex;
-  background:grey;
-  postion: absolute;
-  top:5%;
-  left:0;
-  right: 0;
-  z-index:9;
-  flex-direction: column;
-} */
 
-    
-/* .header .menu .menubar ul{
-display:flex;
-  background:grey;
-  position:absolute;
-  top:5%;
-  left:0;
-  right:0;
-  z-index:9;
-  flex-direction:column;
-  
-} */
+  .header .menu .mobile-open .menubar ul {
+    display: flex;
+    background: grey;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    flex-direction: column;
+  }
 
- .header .menu .menubar ul{
-   height:auto;
-   width:100%;
-   display:none;
- }
+  .header .menu .menubar ul {
+    height: auto;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    background: grey;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    z-index: 9;
+  }
 
-.header .menu .menubar ul li{
-  padding:50%;
-}
-   .header .menu .menubar ul li a{
-     padding:1rem;
-   }
-  
-   .header .menu .menubar ul li .submenu{
-     position:absolute;
-     top:100%;
-     left:0%;
-     transform: none !important;
-     display:none;
-   }
-  /* .header .menu .menubar ul li:open-submenu .submenu{
-    display:block; */
- } 
-  
+  .header .menu .menubar ul li {
+    padding: 0.5rem;
+  }
+
+  .header .menu .menubar ul li a {
+    padding: 1rem;
+  }
+
+  .header .menu .menubar ul li .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: none !important;
+    display: none;
+  }
+
+  .header .menu .menubar ul li.open-submenu .submenu {
+    display: block;
+  }
 }
