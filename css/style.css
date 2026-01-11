@@ -19,6 +19,7 @@
 .logo {
   width: 50%;
   height: 100%;
+
   background-color: black;
 }
 .logo a {
@@ -28,7 +29,7 @@
   justify-content: center;
 }
 .logo a img {
-  width: auto;
+  width: 50%;
   height: auto;
 }
 
