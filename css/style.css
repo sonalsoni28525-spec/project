@@ -117,7 +117,7 @@ display: flex;
 /* Mobile Styles */
 @media (max-width: 576px) {
   .header {
-    height: 10%;
+    height: 5%;
     background: white;
   }
 
