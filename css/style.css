@@ -17,10 +17,9 @@
 }
 
 .logo {
-  width: 100%;
+  width: 25%;
   height: 100%;
-display: flex;
-  background-color: black;
+  background-color: #98FF98;
 }
 .logo a {
   width: 100%;
