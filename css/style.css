@@ -116,7 +116,7 @@
 /* Mobile Styles */
 @media (max-width: 576px) {
   .header {
-    height: 5%;
+    height: 10%;
     background: white;
   }
 
