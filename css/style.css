@@ -177,37 +177,7 @@
     flex-direction: column;
   }
 
-  form{
-  height:60%;
-  width:40%;
-  background-color: #34eba4;
-  color: #000;
-}
-form label{
-  line-height:1;
-  font-size: 3vw;
-  
-}
-form input {
-    width: 50%;
-    height: 5vh;
-    border: none;
-}
-form h2 {
-  height:5vh;
-  width: 80%;
-  font-size: 2vw;
-  text-align: center;
-}
-form button {
-  height:4vh;
-  width: 20%;
-  font-size:1vw;
-  border: none;
-}form h1 {
-    font-size:16px;
-  }
-
+ 
 
   .header .menu .menubar ul {
     height: auto;
@@ -242,7 +212,4 @@ form button {
     display: block;
   }
 }
-form h1 {
-    font-size:16px;
-  }
-}
+
