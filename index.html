@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../java/menu.js" defer></script>
-</head>
+
 
 <body>
     <div id="header"></div>              
@@ -19,15 +19,15 @@
             .catch(err => {
                 console.error("Header load failed:", err);
             });
-
-    <form style="display: flex; align-items: center; justify-content: center; flex-direction: column; white-space: nowrap;">
+    </head>
+    <form id="userform" style="display: flex; align-items: center; justify-content: center; flex-direction: column; white-space: nowrap;">
       <h2>Registration Form</h2>
       <label>Name</label>
-      <input type="text" required>
+      <input id= "name" type="text" required>
       <label>Email</label>
-      <input type="email" required>
+      <input id= "email" type="email" required>
       <label>Password</label>
-      <input type="password" required>
+      <input  id= " password" type="password" required>
       <button>Register</button>
       
     </form>
