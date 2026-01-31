@@ -23,5 +23,22 @@ alert(" All fields are required");
     alert("Email already Registered")
     return;
   }
-  const{ error:insertError}=await 
+  const{ error:insertError}=await superbaseClient
+   .form("users")
+   .Insert([
+      {
+         Name:name,
+            Email:email,
+         password:password
+      }
+      ])
+   if (insertError) {
+      console.error("insertError");
+      alert("registration failed");
+      return;
+   }
+   alert(" Registation Sucessfully");
+   e.target.reset();
+});
+         
     
